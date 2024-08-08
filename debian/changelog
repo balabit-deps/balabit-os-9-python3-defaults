@@ -1,3 +1,11 @@
+python3-defaults (3.10.6-1~22.04.1) jammy; urgency=medium
+
+  * Don't use shell when calling dpkg -L
+  * Correct locale when calling dpkg -L to avoid failures in py3clean
+    (LP: #2075337)
+
+ -- Dave Jones <dave.jones@canonical.com>  Thu, 08 Aug 2024 14:28:21 +0200
+
 python3-defaults (3.10.6-1~22.04) jammy-proposed; urgency=medium
 
   * SRU: LP: #1982108. Update to Python 3.10.6 in Ubuntu 22.04 LTS.
